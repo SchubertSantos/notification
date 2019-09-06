@@ -1,0 +1,32 @@
+{
+    "name": "schubertsantos/notification",
+    "description": "This is a library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Schubert Santos",
+            "email": "schubert.asantos@gmail.com",
+            "homepage": "https://www.blackstyleweb.com.br",
+            "role": "CEO and Founder"
+        },
+        {
+            "name": "Schubaca",
+            "email": "schubapgd@gmail.com",
+            "homepage": "https://www.blackstyleweb.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.7"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
