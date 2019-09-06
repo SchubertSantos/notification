@@ -5,7 +5,7 @@ This library is intended to send email using the phpmailer library. Doing this u
 To install the library, run the following command:
 
 ``` sh
-composer requires gustavoweb / composer_teste
+composer requires gustavoweb/composer_teste
 ```
 
 To make use of the library, simply request or automatically load the composer, invoke a class, and make a method call:
@@ -13,13 +13,13 @@ To make use of the library, simply request or automatically load the composer, i
 ```
 <? php
 
-require __DIR__. '/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-Usage Notification \ Email;
+Usage Notification\Email;
 
-$ email = new Email (2, "mail.host.com", "your@email.com", "your-pass", "smtp secure (tls / ssl)", "port (587)", "from@email.com", "From Name");
+$email = new Email (2, "mail.host.com", "your@email.com", "your-pass", "smtp secure (tls / ssl)", "port (587)", "from@email.com", "From Name");
 
-$ email-> sendEmail ("SUbject", "Content", "reply@email.com", "Replay Name", "address@email.com", "Address Name");
+$email-> sendEmail ("Subject", "Content", "reply@email.com", "Replay Name", "address@email.com", "Address Name");
 ```
 
 Note that all email sending configuration is using the magic builder method! Once you invoke the constructor method within your application, your system is able to trigger.
@@ -39,6 +39,6 @@ MIT
 
 [//]: #
 [Gustavo Web]: <mailto: gustavo@upinside.com.br>
-[Robson V. Milk]: <mailto: robson@upinside.com.br>
-[UpInside Training]: <https://www.upinside.com.br>
+[Robson V. Leite]: <mailto: robson@upinside.com.br>
+[UpInside Treinamentos]: <https://www.upinside.com.br>
 [phpMailer]: <https://github.com/PHPMailer/PHPMailer>
